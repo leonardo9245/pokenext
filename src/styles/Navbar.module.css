@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1em 1.2em;
+  margin-bottom: 2em;
+
+  color: rgb(var(--layout-color-rgb));
+  background-color: rgb(var(--background-layout-rgb));
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 0.5em;
+}
+
+.link_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_items li {
+  margin-right: 1.3em;
+  padding: 5px;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+.link_items li:hover {
+  border-color: #fff;
+}
